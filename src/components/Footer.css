@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Wanted Sans';
+  src: url('../font/WantedSans-Medium.ttf') format('truetype');
+}
+
+.Footer{
+  background-color: #FF86BA;
+  height: 190px;
+  padding : 0 100px 0 100px;
+  font-family: 'Wanted Sans';
+  font-size: 16px;
+  color : white;
+  white-space: pre-line;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.logoImg{
+  height: 50px;
+  margin : 20px;
+}
+
+.mainText {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.subText{
+  padding-left: 25px;
+}

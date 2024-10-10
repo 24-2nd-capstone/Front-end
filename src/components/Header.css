@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Wanted Sans';
+  src: url('../font/WantedSans-SemiBold.ttf') format('truetype');
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 70px 5px 70px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+img{
+  cursor: pointer;
+}
+
+.logoImg {
+  height: 70px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.menu p {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Wanted Sans';
+}
+
+.Icon {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.myPage, .message {
+  height: 35px;
+  margin: 0 20px 0 20px;
+}
