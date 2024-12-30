@@ -4,18 +4,23 @@ import Home from './pages/Home';
 import Book from './pages/Book';
 import Workbook from './pages/Workbook';
 import Author from './pages/Author';
-import Suggest from './pages/Suggest';
+import Login from './pages/Login';
+import Upload from './pages/Upload';
+import Signup from './pages/Signup';
+
 
 function App() {
   return (
     <div className='App'>
       <Router>
         <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path='/book' element={<Book />} />
                 <Route path='/workbook' element={<Workbook />} />
                 <Route path='/author' element={<Author />} />
-                <Route path='/suggest' element={<Suggest />} />
+                <Route path='/login' element={<Login />} />
+                <Route path='/upload' element={<Upload />} />
+                <Route path='/signup' element={<Signup />} />
         </Routes>
       </Router>
     </div>

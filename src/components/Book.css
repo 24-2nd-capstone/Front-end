@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Wanted Sans';
+  src: url('../font/WantedSans-SemiBold.ttf') format('truetype');
+}
+
+.book {
+  text-align: center;
+  padding: 30px;
+  /* background-color: #F5F5F5; */
+}
+.book_exchange, .workbook_exchange {
+  margin: 30px 0;
+}
+
+.book_list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.book_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin: 25px;
+  padding: 20px;
+  text-align: left;
+  width: 200px;
+  height: 320px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.condition_btn {
+  align-self: flex-end;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+
+.more_btn:hover {
+  cursor: pointer;
+}
+
+.book_card:hover {
+  cursor: pointer;
+}
+.title_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 30px;
+}
+
+.more_btn {
+  width: 80px;
+  margin-left: auto;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card_title {
+  font-size: 15px;
+}
+
+.card_author {
+  font-size: 10px;
+}
+
+.book_img img {
+  width: 100%;
+  height: auto;
+  max-height: 200px; 
+  border-radius: 8px;
+  object-fit: cover; 
+  margin-bottom: 10px;
+}

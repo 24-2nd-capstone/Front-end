@@ -1,0 +1,114 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.delivery-container {
+  width: 500px;
+  margin: 50px auto;
+  padding: 40px; 
+  text-align: left;
+}
+
+.delivery-header {
+  text-align: left; 
+  margin-bottom: 30px;
+}
+
+.delivery-header h1 {
+  
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  padding: 5px; 
+  width: 220px; 
+}
+
+.delivery-header p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+  padding: 5px; 
+  width: 420px; 
+}
+
+.delivery-header .price {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #FFF491; 
+  padding: 4px; 
+  width: 120px; 
+  color: #FF62A6;
+  margin-top: 15px;
+}
+
+.delivery-form form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #000000;
+  background-color: #fff;
+  outline: none;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+
+.payment-option input {
+  margin-right: 8px;
+}
+
+.submit-button {
+  display: block;
+  width: 40%;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 20px auto; 
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: #555;
+}

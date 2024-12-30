@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Wanted Sans';
+    src: url('../font/WantedSans-SemiBold.ttf') format('truetype');
+  }
+  
+  .text {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .author_group {
+    display: flex;
+    justify-content: space-between; /* 요소를 양 끝에 배치 */
+    align-items: center; /* 세로 정렬 */
+    padding:  20px 90px 0 90px;
+  }
+  
+  .author_search {
+    width: 220px;
+    height: 30px;
+  }
+  
+  /* .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    opacity: 1;
+  } */
+  
+  .feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding:  20px;
+  }
+  
+  .author_img {
+    width: calc(33.33% - 20px);
+    height: auto;
+    max-width: 400px;
+  }
+  
+  
